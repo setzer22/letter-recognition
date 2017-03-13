@@ -1230,3 +1230,209 @@ Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row 
 2017-03-13 11:30:30,621 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Partitioning (#2)"
 2017-03-13 11:30:30,623 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Naive Bayes Learner (#3)"
 2017-03-13 11:30:30,629 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/Naive_Bayes"
+2017-03-13 11:33:02,964 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 2:2 (CONFIGURED)
+2017-03-13 11:33:15,224 : DEBUG : main : WorkflowManager :  :  : Added new node 2:4
+2017-03-13 11:33:15,225 : DEBUG : main : NodeContainer :  :  : Setting dirty flag on Naive_Bayes 2
+2017-03-13 11:33:15,225 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=2:4;old=null;new=Naive Bayes Predictor 2:4 (IDLE);timestamp=Mar 13, 2017 11:33:15 AM]
+2017-03-13 11:33:15,225 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=2;old=null;new=null;timestamp=Mar 13, 2017 11:33:15 AM]
+2017-03-13 11:33:15,232 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:33:15,232 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Naive Bayes Predictor 2:4 (IDLE) )
+2017-03-13 11:33:18,844 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (IDLE)
+2017-03-13 11:33:18,845 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (IDLE)
+2017-03-13 11:33:19,755 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 2:3 1 to 2:4 1
+2017-03-13 11:33:19,755 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 2:3(1) to node 2:4(1)
+2017-03-13 11:33:19,755 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[2:3(1) -> 2:4( 1)];timestamp=Mar 13, 2017 11:33:19 AM]
+2017-03-13 11:33:19,758 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:3(1) -> 2:4( 1)]
+2017-03-13 11:33:19,758 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:33:19,758 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:3(1) -> 2:4( 1)]
+2017-03-13 11:33:19,758 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:33:21,117 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (IDLE)
+2017-03-13 11:33:21,118 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 2:2 (CONFIGURED)
+2017-03-13 11:33:22,786 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 2:2 2 to 2:4 2
+2017-03-13 11:33:22,787 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 2:2(2) to node 2:4(2)
+2017-03-13 11:33:22,787 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[2:2(2) -> 2:4( 2)];timestamp=Mar 13, 2017 11:33:22 AM]
+2017-03-13 11:33:22,790 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:2(2) -> 2:4( 2)]
+2017-03-13 11:33:22,790 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:33:22,791 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:2(2) -> 2:4( 2)]
+2017-03-13 11:33:22,791 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:33:23,902 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 2:2 (CONFIGURED)
+2017-03-13 11:33:23,902 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (IDLE)
+2017-03-13 11:33:25,819 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (IDLE)
+2017-03-13 11:33:33,807 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (IDLE)
+2017-03-13 11:33:35,124 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2017-03-13 11:33:35,124 : DEBUG : main : NodeContainer :  :  : Setting dirty flag on Partitioning 2:2
+2017-03-13 11:33:35,124 : DEBUG : main : NodeContainer :  :  : Partitioning 2:2 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:33:35,124 : DEBUG : main : NodeContainer :  :  : Partitioning 2:2 has new state: CONFIGURED_QUEUED
+2017-03-13 11:33:35,125 : DEBUG : main : NodeContainer :  :  : Setting dirty flag on Naive Bayes Learner 2:3
+2017-03-13 11:33:35,125 : DEBUG : main : NodeContainer :  :  : Naive Bayes Learner 2:3 has new state: UNCONFIGURED_MARKEDFOREXEC
+2017-03-13 11:33:35,125 : DEBUG : main : NodeContainer :  :  : Naive Bayes Predictor 2:4 has new state: UNCONFIGURED_MARKEDFOREXEC
+2017-03-13 11:33:35,125 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: EXECUTING
+2017-03-13 11:33:35,125 : DEBUG : KNIME-Worker-6 : WorkflowManager : Partitioning : 2:2 : Partitioning 2:2 doBeforePreExecution
+2017-03-13 11:33:35,125 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2017-03-13 11:33:35,126 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Partitioning 2:2 has new state: PREEXECUTE
+2017-03-13 11:33:35,126 : DEBUG : KNIME-Worker-6 : WorkflowManager : Partitioning : 2:2 : Partitioning 2:2 doBeforeExecution
+2017-03-13 11:33:35,126 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Partitioning 2:2 has new state: EXECUTING
+2017-03-13 11:33:35,126 : DEBUG : KNIME-Worker-6 : WorkflowFileStoreHandlerRepository : Partitioning : 2:2 : Adding handler e5d9dad5-48a9-43d0-89bb-d6764409ccc0 (Partitioning 2:2: <no directory>) - 2 in total
+2017-03-13 11:33:35,126 : DEBUG : KNIME-Worker-6 : LocalNodeExecutionJob : Partitioning : 2:2 : Partitioning 2:2 Start execute
+2017-03-13 11:33:35,127 : DEBUG : KNIME-Worker-6 : PartitionNodeModel : Partitioning : 2:2 : Using random seed 6055958644998
+2017-03-13 11:33:35,169 : DEBUG : KNIME-Worker-6 : Buffer : Partitioning : 2:2 : Opening input stream on file "/tmp/knime_Workflow Manage20977/knime_container_20170313_4463806204398397126.bin.gz", 2 open streams
+2017-03-13 11:33:35,459 : DEBUG : KNIME-Worker-6 : Buffer : Partitioning : 2:2 : Closing input stream on "/tmp/knime_Workflow Manage20977/knime_container_20170313_4463806204398397126.bin.gz", 1 remaining
+2017-03-13 11:33:35,460 : DEBUG : KNIME-Worker-6 : Buffer : Partitioning : 2:2 : Buffer file (/tmp/knime_Workflow Manage20977/knime_container_20170313_1070754413900432196.bin.gz) is 0.246MB in size
+2017-03-13 11:33:35,462 : INFO  : KNIME-Worker-6 : LocalNodeExecutionJob : Partitioning : 2:2 : Partitioning 2:2 End execute (0 secs)
+2017-03-13 11:33:35,462 : DEBUG : KNIME-Worker-6 : WorkflowManager : Partitioning : 2:2 : Partitioning 2:2 doBeforePostExecution
+2017-03-13 11:33:35,463 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Partitioning 2:2 has new state: POSTEXECUTE
+2017-03-13 11:33:35,463 : DEBUG : KNIME-Worker-6 : WorkflowManager : Partitioning : 2:2 : Partitioning 2:2 doAfterExecute - success
+2017-03-13 11:33:35,463 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Partitioning 2:2 has new state: EXECUTED
+2017-03-13 11:33:35,463 : WARN  : KNIME-Worker-6 : Naive Bayes Learner : Naive Bayes Learner : 2:3 : Class column domain contains too many unique values (count: 26)
+2017-03-13 11:33:35,463 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Naive Bayes Learner 2:3 has new state: IDLE
+2017-03-13 11:33:35,463 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Naive Bayes Predictor 2:4 has new state: IDLE
+2017-03-13 11:33:35,464 : DEBUG : KNIME-Worker-6 : NodeContainer : Partitioning : 2:2 : Naive_Bayes 2 has new state: IDLE
+2017-03-13 11:33:35,464 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2017-03-13 11:33:43,792 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (IDLE)
+2017-03-13 11:33:43,793 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 2:2 (EXECUTED)
+2017-03-13 11:33:47,146 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 2:2 (EXECUTED)
+2017-03-13 11:33:47,146 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (IDLE)
+2017-03-13 11:33:56,425 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 2:3 : Configure succeeded. (Naive Bayes Learner)
+2017-03-13 11:33:56,425 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: CONFIGURED
+2017-03-13 11:33:56,485 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 2:4 : Configure succeeded. (Naive Bayes Predictor)
+2017-03-13 11:33:56,486 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Predictor 2:4 has new state: CONFIGURED
+2017-03-13 11:33:56,486 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive_Bayes 2 has new state: CONFIGURED
+2017-03-13 11:33:57,276 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 2:4 : reset
+2017-03-13 11:33:57,276 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 2:4 : clean output ports.
+2017-03-13 11:33:57,277 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Predictor 2:4 has new state: IDLE
+2017-03-13 11:33:57,277 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 2:3 : reset
+2017-03-13 11:33:57,277 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 2:3 : clean output ports.
+2017-03-13 11:33:57,277 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: IDLE
+2017-03-13 11:33:57,277 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 2:3 : Configure succeeded. (Naive Bayes Learner)
+2017-03-13 11:33:57,278 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: CONFIGURED
+2017-03-13 11:33:57,278 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 2:4 : Configure succeeded. (Naive Bayes Predictor)
+2017-03-13 11:33:57,278 : DEBUG : main : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Predictor 2:4 has new state: CONFIGURED
+2017-03-13 11:33:59,240 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2017-03-13 11:33:59,240 : DEBUG : main : NodeContainer :  :  : Naive Bayes Learner 2:3 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:33:59,241 : DEBUG : main : NodeContainer :  :  : Naive Bayes Learner 2:3 has new state: CONFIGURED_QUEUED
+2017-03-13 11:33:59,241 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: EXECUTING
+2017-03-13 11:33:59,241 : DEBUG : KNIME-Worker-7 : WorkflowManager : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 doBeforePreExecution
+2017-03-13 11:33:59,241 : DEBUG : KNIME-Worker-7 : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: PREEXECUTE
+2017-03-13 11:33:59,242 : DEBUG : KNIME-Worker-7 : WorkflowManager : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 doBeforeExecution
+2017-03-13 11:33:59,242 : DEBUG : KNIME-Worker-7 : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: EXECUTING
+2017-03-13 11:33:59,243 : DEBUG : KNIME-Worker-7 : WorkflowFileStoreHandlerRepository : Naive Bayes Learner : 2:3 : Adding handler bf2fc15b-49d5-4317-9144-4b8583950213 (Naive Bayes Learner 2:3: <no directory>) - 3 in total
+2017-03-13 11:33:59,243 : DEBUG : KNIME-Worker-7 : LocalNodeExecutionJob : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 Start execute
+2017-03-13 11:33:59,243 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2017-03-13 11:33:59,243 : DEBUG : KNIME-Worker-7 : NaiveBayesLearnerNodeModel2 : Naive Bayes Learner : 2:3 : Entering execute of org.knime.base.node.mine.bayes.naivebayes.learner2.NaiveBayesLearnerNodeModel2
+2017-03-13 11:33:59,243 : DEBUG : KNIME-Worker-7 : Buffer : Naive Bayes Learner : 2:3 : Opening input stream on file "/tmp/knime_Workflow Manage20977/knime_container_20170313_1070754413900432196.bin.gz", 1 open streams
+2017-03-13 11:33:59,375 : DEBUG : KNIME-Worker-7 : Buffer : Naive Bayes Learner : 2:3 : Closing input stream on "/tmp/knime_Workflow Manage20977/knime_container_20170313_1070754413900432196.bin.gz", 0 remaining
+2017-03-13 11:33:59,381 : DEBUG : KNIME-Worker-7 : NaiveBayesLearnerNodeModel2 : Naive Bayes Learner : 2:3 : Exiting execute of org.knime.base.node.mine.bayes.naivebayes.learner2.NaiveBayesLearnerNodeModel2
+2017-03-13 11:33:59,569 : INFO  : KNIME-Worker-7 : LocalNodeExecutionJob : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 End execute (0 secs)
+2017-03-13 11:33:59,569 : DEBUG : KNIME-Worker-7 : WorkflowManager : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 doBeforePostExecution
+2017-03-13 11:33:59,569 : DEBUG : KNIME-Worker-7 : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: POSTEXECUTE
+2017-03-13 11:33:59,569 : DEBUG : KNIME-Worker-7 : WorkflowManager : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 doAfterExecute - success
+2017-03-13 11:33:59,569 : DEBUG : KNIME-Worker-7 : NodeContainer : Naive Bayes Learner : 2:3 : Naive Bayes Learner 2:3 has new state: EXECUTED
+2017-03-13 11:33:59,570 : DEBUG : KNIME-Worker-7 : Naive Bayes Predictor : Naive Bayes Predictor : 2:4 : Configure succeeded. (Naive Bayes Predictor)
+2017-03-13 11:33:59,571 : DEBUG : KNIME-Worker-7 : NodeContainer : Naive Bayes Learner : 2:3 : Naive_Bayes 2 has new state: CONFIGURED
+2017-03-13 11:33:59,571 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2017-03-13 11:34:16,120 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (EXECUTED)
+2017-03-13 11:34:16,120 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (CONFIGURED)
+2017-03-13 11:34:19,985 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Naive Bayes Predictor (#1)
+2017-03-13 11:34:33,823 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2017-03-13 11:34:33,823 : DEBUG : main : NodeContainer :  :  : Naive Bayes Predictor 2:4 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:34:33,823 : DEBUG : main : NodeContainer :  :  : Naive Bayes Predictor 2:4 has new state: CONFIGURED_QUEUED
+2017-03-13 11:34:33,824 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: EXECUTING
+2017-03-13 11:34:33,824 : DEBUG : KNIME-Worker-8 : WorkflowManager : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 doBeforePreExecution
+2017-03-13 11:34:33,824 : DEBUG : KNIME-Worker-8 : NodeContainer : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 has new state: PREEXECUTE
+2017-03-13 11:34:33,824 : DEBUG : KNIME-Worker-8 : WorkflowManager : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 doBeforeExecution
+2017-03-13 11:34:33,824 : DEBUG : KNIME-Worker-8 : NodeContainer : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 has new state: EXECUTING
+2017-03-13 11:34:33,825 : DEBUG : KNIME-Worker-8 : WorkflowFileStoreHandlerRepository : Naive Bayes Predictor : 2:4 : Adding handler 431b14c4-7368-4772-9713-188e6bd9fb46 (Naive Bayes Predictor 2:4: <no directory>) - 4 in total
+2017-03-13 11:34:33,825 : DEBUG : KNIME-Worker-8 : LocalNodeExecutionJob : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 Start execute
+2017-03-13 11:34:33,825 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2017-03-13 11:34:33,980 : DEBUG : KNIME-Worker-8 : NaiveBayesPredictorNodeModel2 : Naive Bayes Predictor : 2:4 : Entering execute(inData, exec) of class NaiveBayesPredictorNodeModel.
+2017-03-13 11:34:34,866 : DEBUG : KNIME-Worker-8 : NaiveBayesPredictorNodeModel2 : Naive Bayes Predictor : 2:4 : Exiting execute(inData, exec) of class NaiveBayesPredictorNodeModel.
+2017-03-13 11:34:34,866 : INFO  : KNIME-Worker-8 : LocalNodeExecutionJob : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 End execute (1 sec)
+2017-03-13 11:34:34,866 : DEBUG : KNIME-Worker-8 : WorkflowManager : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 doBeforePostExecution
+2017-03-13 11:34:34,866 : DEBUG : KNIME-Worker-8 : NodeContainer : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 has new state: POSTEXECUTE
+2017-03-13 11:34:34,866 : DEBUG : KNIME-Worker-8 : WorkflowManager : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 doAfterExecute - success
+2017-03-13 11:34:34,867 : DEBUG : KNIME-Worker-8 : NodeContainer : Naive Bayes Predictor : 2:4 : Naive Bayes Predictor 2:4 has new state: EXECUTED
+2017-03-13 11:34:34,867 : DEBUG : KNIME-Worker-8 : NodeContainer : Naive Bayes Predictor : 2:4 : Naive_Bayes 2 has new state: EXECUTED
+2017-03-13 11:34:34,867 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2017-03-13 11:34:39,025 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Naive Bayes Predictor (#1)
+2017-03-13 11:35:02,802 : DEBUG : main : WorkflowManager :  :  : Added new node 2:5
+2017-03-13 11:35:02,802 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=2:5;old=null;new=ROC Curve 2:5 (IDLE);timestamp=Mar 13, 2017 11:35:02 AM]
+2017-03-13 11:35:02,802 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: IDLE
+2017-03-13 11:35:02,805 : DEBUG : KNIME-Node-Usage-Writer : NodeTimer$GlobalNodeStats :  :  : Successfully wrote node usage stats to file: /home/josep/ADM/Paper1/knime-workspace/.metadata/knime/nodeusage_3.0.json
+2017-03-13 11:35:02,814 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:35:02,814 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( ROC Curve 2:5 (IDLE) )
+2017-03-13 11:35:02,815 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (EXECUTED)
+2017-03-13 11:35:19,022 : DEBUG : main : VerifyingCompoundCommand :  :  : Executing <1> commands.
+2017-03-13 11:35:19,027 : DEBUG : main : ROCNodeModel : ROC Curve : 2:5 : Removing all (0) views from model.
+2017-03-13 11:35:19,027 : DEBUG : main : ROC Curve : ROC Curve : 2:5 : clean output ports.
+2017-03-13 11:35:19,027 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: EXECUTED
+2017-03-13 11:35:19,028 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=2;old=ROC Curve 2:5 (IDLE);new=null;timestamp=Mar 13, 2017 11:35:19 AM]
+2017-03-13 11:35:29,292 : DEBUG : main : WorkflowManager :  :  : Added new node 2:5
+2017-03-13 11:35:29,292 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: IDLE
+2017-03-13 11:35:29,292 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=2:5;old=null;new=Scorer 2:5 (IDLE);timestamp=Mar 13, 2017 11:35:29 AM]
+2017-03-13 11:35:29,303 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:35:29,304 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Scorer 2:5 (IDLE) )
+2017-03-13 11:35:33,482 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (IDLE)
+2017-03-13 11:35:33,482 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (EXECUTED)
+2017-03-13 11:35:34,018 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 2:4 1 to 2:5 1
+2017-03-13 11:35:34,019 : WARN  : main : Scorer : Scorer : 2:5 : No columns selected yet.
+2017-03-13 11:35:34,019 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 2:4(1) to node 2:5(1)
+2017-03-13 11:35:34,019 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[2:4(1) -> 2:5( 1)];timestamp=Mar 13, 2017 11:35:34 AM]
+2017-03-13 11:35:34,022 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:4(1) -> 2:5( 1)]
+2017-03-13 11:35:34,022 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:35:34,023 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:4(1) -> 2:5( 1)]
+2017-03-13 11:35:34,023 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:35:34,993 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (EXECUTED)
+2017-03-13 11:35:34,993 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (IDLE)
+2017-03-13 11:35:53,526 : DEBUG : main : Scorer : Scorer : 2:5 : Configure succeeded. (Scorer)
+2017-03-13 11:35:53,526 : DEBUG : main : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: CONFIGURED
+2017-03-13 11:35:53,526 : DEBUG : main : NodeContainer : Scorer : 2:5 : Naive_Bayes 2 has new state: CONFIGURED
+2017-03-13 11:35:54,369 : DEBUG : main : Scorer : Scorer : 2:5 : reset
+2017-03-13 11:35:54,369 : DEBUG : main : Scorer : Scorer : 2:5 : clean output ports.
+2017-03-13 11:35:54,369 : DEBUG : main : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: IDLE
+2017-03-13 11:35:54,370 : DEBUG : main : Scorer : Scorer : 2:5 : Configure succeeded. (Scorer)
+2017-03-13 11:35:54,370 : DEBUG : main : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: CONFIGURED
+2017-03-13 11:36:02,008 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2017-03-13 11:36:02,009 : DEBUG : main : NodeContainer :  :  : Scorer 2:5 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:36:02,009 : DEBUG : main : NodeContainer :  :  : Scorer 2:5 has new state: CONFIGURED_QUEUED
+2017-03-13 11:36:02,009 : DEBUG : main : NodeContainer :  :  : Naive_Bayes 2 has new state: EXECUTING
+2017-03-13 11:36:02,010 : DEBUG : KNIME-Worker-9 : WorkflowManager : Scorer : 2:5 : Scorer 2:5 doBeforePreExecution
+2017-03-13 11:36:02,010 : DEBUG : KNIME-Worker-9 : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: PREEXECUTE
+2017-03-13 11:36:02,010 : DEBUG : KNIME-Worker-9 : WorkflowManager : Scorer : 2:5 : Scorer 2:5 doBeforeExecution
+2017-03-13 11:36:02,010 : DEBUG : KNIME-Worker-9 : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: EXECUTING
+2017-03-13 11:36:02,011 : DEBUG : KNIME-Worker-9 : WorkflowFileStoreHandlerRepository : Scorer : 2:5 : Adding handler e111b9e9-edd0-46dc-9856-ead52a5aecb9 (Scorer 2:5: <no directory>) - 5 in total
+2017-03-13 11:36:02,011 : DEBUG : KNIME-Worker-9 : LocalNodeExecutionJob : Scorer : 2:5 : Scorer 2:5 Start execute
+2017-03-13 11:36:02,011 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2017-03-13 11:36:02,049 : INFO  : KNIME-Worker-9 : AccuracyScorerNodeModel : Scorer : 2:5 : error=0.38175, #correct=2473, #false=1527, #rows=4000, #missing=0
+2017-03-13 11:36:02,052 : INFO  : KNIME-Worker-9 : LocalNodeExecutionJob : Scorer : 2:5 : Scorer 2:5 End execute (0 secs)
+2017-03-13 11:36:02,052 : DEBUG : KNIME-Worker-9 : WorkflowManager : Scorer : 2:5 : Scorer 2:5 doBeforePostExecution
+2017-03-13 11:36:02,052 : DEBUG : KNIME-Worker-9 : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: POSTEXECUTE
+2017-03-13 11:36:02,052 : DEBUG : KNIME-Worker-9 : WorkflowManager : Scorer : 2:5 : Scorer 2:5 doAfterExecute - success
+2017-03-13 11:36:02,052 : DEBUG : KNIME-Worker-9 : NodeContainer : Scorer : 2:5 : Scorer 2:5 has new state: EXECUTED
+2017-03-13 11:36:02,053 : DEBUG : KNIME-Worker-9 : NodeContainer : Scorer : 2:5 : Naive_Bayes 2 has new state: EXECUTED
+2017-03-13 11:36:02,053 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2017-03-13 11:36:07,545 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Scorer (#1)
+2017-03-13 11:36:29,853 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Scorer (#2)
+2017-03-13 11:36:42,657 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Scorer (#1)
+2017-03-13 11:37:17,153 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (EXECUTED)
+2017-03-13 11:37:17,943 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (EXECUTED)
+2017-03-13 11:37:42,076 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Scorer (#1)
+2017-03-13 11:38:18,845 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:1(1) -> 2:2( 1)]
+2017-03-13 11:38:18,845 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:38:18,848 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:2(1) -> 2:3( 1)]
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:2(2) -> 2:4( 2)]
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:3(1) -> 2:4( 1)]
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[2:4(1) -> 2:5( 1)]
+2017-03-13 11:38:18,849 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:38:46,784 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Scorer (#1)
+2017-03-13 11:39:25,863 : DEBUG : main : OpenViewAction :  :  : Open Node View Scorer (#0)
+2017-03-13 11:39:25,898 : DEBUG : AWT-EventQueue-0 : AccuracyScorerNodeModel :  :  : Registering view at model (total count 1)
+2017-03-13 11:40:06,987 : DEBUG : AWT-EventQueue-0 : AccuracyScorerNodeModel :  :  : Unregistering view from model (0 remaining).
+2017-03-13 11:40:07,650 : DEBUG : main : WorkflowEditor :  :  : Saving workflow Naive_Bayes 2
+2017-03-13 11:40:07,707 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Partitioning (#2)"
+2017-03-13 11:40:07,773 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Naive Bayes Learner (#3)"
+2017-03-13 11:40:07,816 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Naive Bayes Predictor (#4)"
+2017-03-13 11:40:07,828 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Scorer (#5)"
+2017-03-13 11:40:07,852 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/Naive_Bayes"

@@ -6,6 +6,38 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs":1,
+                "nrfails":1,
+                "exectime":2483,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning"
+            },
+            {
+                "id":"org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":337,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2#Naive Bayes Predictor"
+            },
+            {
+                "id":"org.knime.base.node.mine.bayes.naivebayes.learner2.NaiveBayesLearnerNodeFactory3#Naive Bayes Learner",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":327,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2#Naive Bayes Predictor"
+            },
+            {
+                "id":"org.knime.base.node.mine.bayes.naivebayes.predictor3.NaiveBayesPredictorNodeFactory2#Naive Bayes Predictor",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":1042,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.roc.ROCNodeFactory#ROC Curve",
                 "nrexecs":0,
                 "nrfails":0,
                 "exectime":0,
@@ -18,11 +50,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":191798,
+    "uptime":1095914,
     "workflowsOpened":0,
     "remoteWorkflowsOpened":0,
     "launches":1,
-    "timeSinceLastStart":191798,
+    "timeSinceLastStart":1095914,
     "crashes":0,
     "properlyShutDown":false
 }
