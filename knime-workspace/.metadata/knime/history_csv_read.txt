@@ -1,0 +1,3 @@
+/home/josep/ADM/Paper1/dataset/letter-recognition.data
+/home/josep/ADM
+knime://knime.workflow/../../dataset/letter-recognition.data
