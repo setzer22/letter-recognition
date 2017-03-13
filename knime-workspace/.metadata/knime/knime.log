@@ -1436,3 +1436,514 @@ Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row 
 2017-03-13 11:40:07,816 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Naive Bayes Predictor (#4)"
 2017-03-13 11:40:07,828 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Naive_Bayes/Scorer (#5)"
 2017-03-13 11:40:07,852 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/Naive_Bayes"
+2017-03-13 11:44:19,988 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/"
+2017-03-13 11:44:19,997 : DEBUG : ModalContext : LocalWorkspaceFileStore :  :  : Refreshed resource R/
+2017-03-13 11:44:19,999 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/Decision_Tree"
+2017-03-13 11:44:19,999 : DEBUG : ModalContext : LocalWorkspaceFileStore :  :  : Refreshed resource P/Decision_Tree
+2017-03-13 11:44:20,013 : DEBUG : main : WorkflowEditor :  :  : Creating WorkflowEditor...
+2017-03-13 11:44:20,013 : DEBUG : main : WorkflowEditor :  :  : creating editor actions...
+2017-03-13 11:44:20,013 : DEBUG : main : WorkflowEditor :  :  : Initializing editor UI...
+2017-03-13 11:44:20,013 : DEBUG : main : WorkflowEditor :  :  : Opening workflow Editor on workflow.knime
+2017-03-13 11:44:20,013 : DEBUG : main : WorkflowEditor :  :  : Setting input into editor...
+2017-03-13 11:44:20,013 : DEBUG : main : WorkflowEditor :  :  : Resource File's project: file:/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/
+2017-03-13 11:44:20,025 : INFO  : ModalContext : LoadWorkflowRunnable :  :  : New workflow created.
+2017-03-13 11:44:20,025 : DEBUG : ModalContext : NodeContainer :  :  : Workflow Manager 3 has new state: EXECUTED
+2017-03-13 11:44:20,025 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 3
+2017-03-13 11:44:20,025 : DEBUG : ModalContext : WorkflowManager :  :  : Added new subworkflow 3
+2017-03-13 11:44:20,025 : DEBUG : ModalContext : WorkflowManager :  :  : Created project 3
+2017-03-13 11:44:20,025 : DEBUG : main : WorkflowEditor :  :  : Saving workflow Workflow Manager 3
+2017-03-13 11:44:20,040 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/Decision_Tree"
+2017-03-13 11:44:20,074 : DEBUG : main : ProjectWorkflowMap :  :  : Adding "file:/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/" to project map (2 in total)
+2017-03-13 11:44:20,074 : DEBUG : main : ProjectWorkflowMap :  :  : registering org.knime.workbench.editor2.WorkflowEditor@126f428e to file:/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/. 1 registered clients now.
+2017-03-13 11:44:24,367 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (EXECUTED)
+2017-03-13 11:44:24,405 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 2:4 (EXECUTED)
+2017-03-13 11:44:24,405 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (EXECUTED)
+2017-03-13 11:44:24,443 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 2:3 (EXECUTED)
+2017-03-13 11:44:24,468 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 2:2 (EXECUTED)
+2017-03-13 11:44:24,494 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 2:5 (EXECUTED)
+2017-03-13 11:44:24,494 : DEBUG : main : NodeContainerEditPart :  :  : CSV Reader 2:1 (EXECUTED)
+2017-03-13 11:44:27,052 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:4;old=null;new=Naive Bayes Predictor 3:4 (CONFIGURED);timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,053 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:3;old=null;new=Naive Bayes Learner 3:3 (CONFIGURED);timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,053 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:4(1) to node 3:5(1)
+2017-03-13 11:44:27,053 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:2(1) to node 3:3(1)
+2017-03-13 11:44:27,053 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:2;old=null;new=Partitioning 3:2 (CONFIGURED);timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,053 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:1(1) to node 3:2(1)
+2017-03-13 11:44:27,053 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:2(2) to node 3:4(2)
+2017-03-13 11:44:27,053 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:5;old=null;new=Scorer 3:5 (CONFIGURED);timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,053 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:3(1) to node 3:4(1)
+2017-03-13 11:44:27,053 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:1;old=null;new=CSV Reader 3:1 (CONFIGURED);timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,054 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:4(1) -> 3:5( 1)];timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,054 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:2(1) -> 3:3( 1)];timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,055 : DEBUG : main : CSV Reader : CSV Reader : 3:1 : Configure succeeded. (CSV Reader)
+2017-03-13 11:44:27,055 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:1(1) -> 3:2( 1)];timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,055 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:2(2) -> 3:4( 2)];timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,055 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:3(1) -> 3:4( 1)];timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,056 : DEBUG : main : NodeContainer :  :  : Setting dirty flag on Decision_Tree 3
+2017-03-13 11:44:27,056 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: CONFIGURED
+2017-03-13 11:44:27,056 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=3;old=null;new=null;timestamp=Mar 13, 2017 11:44:27 AM]
+2017-03-13 11:44:27,065 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:27,067 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:27,068 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:27,070 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:27,071 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:27,072 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( CSV Reader 3:1 (CONFIGURED) )
+2017-03-13 11:44:27,104 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:1(1) -> 3:2( 1)]
+2017-03-13 11:44:27,104 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,105 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Partitioning 3:2 (CONFIGURED) )
+2017-03-13 11:44:27,106 : DEBUG : main : NodeContainerEditPart :  :  : CSV Reader 3:1 (CONFIGURED)
+2017-03-13 11:44:27,121 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:1(1) -> 3:2( 1)]
+2017-03-13 11:44:27,121 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,122 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(1) -> 3:3( 1)]
+2017-03-13 11:44:27,122 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,122 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(2) -> 3:4( 2)]
+2017-03-13 11:44:27,122 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,123 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Naive Bayes Learner 3:3 (CONFIGURED) )
+2017-03-13 11:44:27,124 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 3:2 (CONFIGURED)
+2017-03-13 11:44:27,127 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(1) -> 3:3( 1)]
+2017-03-13 11:44:27,127 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,127 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:3(1) -> 3:4( 1)]
+2017-03-13 11:44:27,127 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,128 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Naive Bayes Predictor 3:4 (CONFIGURED) )
+2017-03-13 11:44:27,130 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 3:3 (CONFIGURED)
+2017-03-13 11:44:27,132 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:3(1) -> 3:4( 1)]
+2017-03-13 11:44:27,132 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,132 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(2) -> 3:4( 2)]
+2017-03-13 11:44:27,132 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,132 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:4(1) -> 3:5( 1)]
+2017-03-13 11:44:27,133 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:27,133 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Scorer 3:5 (CONFIGURED) )
+2017-03-13 11:44:27,134 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 3:4 (CONFIGURED)
+2017-03-13 11:44:27,137 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:4(1) -> 3:5( 1)]
+2017-03-13 11:44:27,137 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:30,383 : DEBUG : main : NodeContainerEditPart :  :  : CSV Reader 3:1 (CONFIGURED)
+2017-03-13 11:44:30,384 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 3:2 (CONFIGURED)
+2017-03-13 11:44:30,384 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 3:3 (CONFIGURED)
+2017-03-13 11:44:30,384 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 3:4 (CONFIGURED)
+2017-03-13 11:44:30,384 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 3:5 (CONFIGURED)
+2017-03-13 11:44:30,384 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 3:3 (CONFIGURED)
+2017-03-13 11:44:31,466 : DEBUG : main : Scorer : Scorer : 3:5 : reset
+2017-03-13 11:44:31,466 : DEBUG : main : Scorer : Scorer : 3:5 : clean output ports.
+2017-03-13 11:44:31,466 : DEBUG : main : NodeContainer :  :  : Scorer 3:5 has new state: IDLE
+2017-03-13 11:44:31,466 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 3:4 : reset
+2017-03-13 11:44:31,466 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 3:4 : clean output ports.
+2017-03-13 11:44:31,466 : DEBUG : main : NodeContainer :  :  : Naive Bayes Predictor 3:4 has new state: IDLE
+2017-03-13 11:44:31,467 : DEBUG : main : NaiveBayesPredictorNodeModel2 : Naive Bayes Predictor : 3:4 : Removing all (0) views from model.
+2017-03-13 11:44:31,467 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 3:4 : clean output ports.
+2017-03-13 11:44:31,467 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:2(2) -> 3:4( 2)];new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,468 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: IDLE
+2017-03-13 11:44:31,468 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 3:3 : reset
+2017-03-13 11:44:31,468 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 3:3 : clean output ports.
+2017-03-13 11:44:31,468 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:3(1) -> 3:4( 1)];new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,468 : DEBUG : main : NodeContainer :  :  : Naive Bayes Learner 3:3 has new state: IDLE
+2017-03-13 11:44:31,468 : DEBUG : main : NaiveBayesLearnerNodeModel2 : Naive Bayes Learner : 3:3 : Removing all (0) views from model.
+2017-03-13 11:44:31,469 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 3:3 : clean output ports.
+2017-03-13 11:44:31,469 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:4(1) -> 3:5( 1)];new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,469 : DEBUG : main : Partitioning : Partitioning : 3:2 : reset
+2017-03-13 11:44:31,469 : DEBUG : main : Partitioning : Partitioning : 3:2 : clean output ports.
+2017-03-13 11:44:31,469 : DEBUG : main : NodeContainer :  :  : Partitioning 3:2 has new state: IDLE
+2017-03-13 11:44:31,469 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=Naive Bayes Predictor 3:4 (IDLE);new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,469 : DEBUG : main : PartitionNodeModel : Partitioning : 3:2 : Removing all (0) views from model.
+2017-03-13 11:44:31,469 : DEBUG : main : Partitioning : Partitioning : 3:2 : clean output ports.
+2017-03-13 11:44:31,470 : DEBUG : main : AccuracyScorerNodeModel : Scorer : 3:5 : Removing all (0) views from model.
+2017-03-13 11:44:31,470 : DEBUG : main : Scorer : Scorer : 3:5 : clean output ports.
+2017-03-13 11:44:31,470 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: CONFIGURED
+2017-03-13 11:44:31,470 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:2(1) -> 3:3( 1)];new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,470 : DEBUG : main : CSVReaderNodeModel : CSV Reader : 3:1 : Removing all (0) views from model.
+2017-03-13 11:44:31,470 : DEBUG : main : CSV Reader : CSV Reader : 3:1 : clean output ports.
+2017-03-13 11:44:31,470 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: EXECUTED
+2017-03-13 11:44:31,470 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=Naive Bayes Learner 3:3 (IDLE);new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,470 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:1(1) -> 3:2( 1)];new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,471 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=Partitioning 3:2 (IDLE);new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,471 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=Scorer 3:5 (IDLE);new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:31,472 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=CSV Reader 3:1 (CONFIGURED);new=null;timestamp=Mar 13, 2017 11:44:31 AM]
+2017-03-13 11:44:32,381 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:4;old=null;new=Naive Bayes Predictor 3:4 (CONFIGURED);timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,382 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:3;old=null;new=Naive Bayes Learner 3:3 (CONFIGURED);timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,382 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:4(1) to node 3:5(1)
+2017-03-13 11:44:32,382 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:2(1) to node 3:3(1)
+2017-03-13 11:44:32,382 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:2;old=null;new=Partitioning 3:2 (CONFIGURED);timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,382 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:1(1) to node 3:2(1)
+2017-03-13 11:44:32,382 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:2(2) to node 3:4(2)
+2017-03-13 11:44:32,382 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:5;old=null;new=Scorer 3:5 (CONFIGURED);timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,382 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:3(1) to node 3:4(1)
+2017-03-13 11:44:32,383 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:1;old=null;new=CSV Reader 3:1 (CONFIGURED);timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,383 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:4(1) -> 3:5( 1)];timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,383 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:2(1) -> 3:3( 1)];timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,383 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:1(1) -> 3:2( 1)];timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,384 : DEBUG : main : CSV Reader : CSV Reader : 3:1 : Configure succeeded. (CSV Reader)
+2017-03-13 11:44:32,384 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:2(2) -> 3:4( 2)];timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,384 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:3(1) -> 3:4( 1)];timestamp=Mar 13, 2017 11:44:32 AM]
+2017-03-13 11:44:32,385 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: CONFIGURED
+2017-03-13 11:44:32,393 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:32,395 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:32,397 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:32,398 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:32,400 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:32,401 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( CSV Reader 3:1 (CONFIGURED) )
+2017-03-13 11:44:32,423 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:1(1) -> 3:2( 1)]
+2017-03-13 11:44:32,423 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,424 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Partitioning 3:2 (CONFIGURED) )
+2017-03-13 11:44:32,426 : DEBUG : main : NodeContainerEditPart :  :  : CSV Reader 3:1 (CONFIGURED)
+2017-03-13 11:44:32,439 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:1(1) -> 3:2( 1)]
+2017-03-13 11:44:32,439 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,440 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(1) -> 3:3( 1)]
+2017-03-13 11:44:32,440 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,440 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(2) -> 3:4( 2)]
+2017-03-13 11:44:32,440 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,441 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Naive Bayes Learner 3:3 (CONFIGURED) )
+2017-03-13 11:44:32,442 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 3:2 (CONFIGURED)
+2017-03-13 11:44:32,444 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(1) -> 3:3( 1)]
+2017-03-13 11:44:32,444 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,445 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:3(1) -> 3:4( 1)]
+2017-03-13 11:44:32,445 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,446 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Naive Bayes Predictor 3:4 (CONFIGURED) )
+2017-03-13 11:44:32,447 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 3:3 (CONFIGURED)
+2017-03-13 11:44:32,450 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:3(1) -> 3:4( 1)]
+2017-03-13 11:44:32,450 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,450 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(2) -> 3:4( 2)]
+2017-03-13 11:44:32,450 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,451 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:4(1) -> 3:5( 1)]
+2017-03-13 11:44:32,451 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:32,452 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Scorer 3:5 (CONFIGURED) )
+2017-03-13 11:44:32,453 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 3:4 (CONFIGURED)
+2017-03-13 11:44:32,456 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:4(1) -> 3:5( 1)]
+2017-03-13 11:44:32,456 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:36,389 : DEBUG : main : NodeContainerEditPart :  :  : CSV Reader 3:1 (CONFIGURED)
+2017-03-13 11:44:36,389 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 3:2 (CONFIGURED)
+2017-03-13 11:44:36,389 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 3:3 (CONFIGURED)
+2017-03-13 11:44:36,389 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 3:4 (CONFIGURED)
+2017-03-13 11:44:36,389 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 3:5 (CONFIGURED)
+2017-03-13 11:44:37,486 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Learner 3:3 (CONFIGURED)
+2017-03-13 11:44:39,721 : DEBUG : main : VerifyingCompoundCommand :  :  : Executing <1> commands.
+2017-03-13 11:44:39,722 : DEBUG : main : Scorer : Scorer : 3:5 : reset
+2017-03-13 11:44:39,722 : DEBUG : main : Scorer : Scorer : 3:5 : clean output ports.
+2017-03-13 11:44:39,722 : DEBUG : main : NodeContainer :  :  : Scorer 3:5 has new state: IDLE
+2017-03-13 11:44:39,722 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 3:4 : reset
+2017-03-13 11:44:39,722 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 3:4 : clean output ports.
+2017-03-13 11:44:39,722 : DEBUG : main : NodeContainer :  :  : Naive Bayes Predictor 3:4 has new state: IDLE
+2017-03-13 11:44:39,722 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 3:3 : reset
+2017-03-13 11:44:39,722 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 3:3 : clean output ports.
+2017-03-13 11:44:39,722 : DEBUG : main : NodeContainer :  :  : Naive Bayes Learner 3:3 has new state: IDLE
+2017-03-13 11:44:39,723 : DEBUG : main : NaiveBayesLearnerNodeModel2 : Naive Bayes Learner : 3:3 : Removing all (0) views from model.
+2017-03-13 11:44:39,723 : DEBUG : main : Naive Bayes Learner : Naive Bayes Learner : 3:3 : clean output ports.
+2017-03-13 11:44:39,723 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:2(1) -> 3:3( 1)];new=null;timestamp=Mar 13, 2017 11:44:39 AM]
+2017-03-13 11:44:39,723 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: IDLE
+2017-03-13 11:44:39,723 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:3(1) -> 3:4( 1)];new=null;timestamp=Mar 13, 2017 11:44:39 AM]
+2017-03-13 11:44:39,724 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=Naive Bayes Learner 3:3 (IDLE);new=null;timestamp=Mar 13, 2017 11:44:39 AM]
+2017-03-13 11:44:41,100 : DEBUG : main : NodeContainerEditPart :  :  : Naive Bayes Predictor 3:4 (IDLE)
+2017-03-13 11:44:42,186 : DEBUG : main : VerifyingCompoundCommand :  :  : Executing <1> commands.
+2017-03-13 11:44:42,187 : DEBUG : main : NaiveBayesPredictorNodeModel2 : Naive Bayes Predictor : 3:4 : Removing all (0) views from model.
+2017-03-13 11:44:42,187 : DEBUG : main : Naive Bayes Predictor : Naive Bayes Predictor : 3:4 : clean output ports.
+2017-03-13 11:44:42,187 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:2(2) -> 3:4( 2)];new=null;timestamp=Mar 13, 2017 11:44:42 AM]
+2017-03-13 11:44:42,188 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[3:4(1) -> 3:5( 1)];new=null;timestamp=Mar 13, 2017 11:44:42 AM]
+2017-03-13 11:44:42,188 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=Naive Bayes Predictor 3:4 (IDLE);new=null;timestamp=Mar 13, 2017 11:44:42 AM]
+2017-03-13 11:44:48,886 : DEBUG : main : WorkflowManager :  :  : Added new node 3:6
+2017-03-13 11:44:48,886 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:6;old=null;new=Decision Tree Learner 3:6 (IDLE);timestamp=Mar 13, 2017 11:44:48 AM]
+2017-03-13 11:44:48,891 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:48,892 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Decision Tree Learner 3:6 (IDLE) )
+2017-03-13 11:44:51,086 : DEBUG : main : WorkflowManager :  :  : Added new node 3:7
+2017-03-13 11:44:51,087 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:7;old=null;new=Decision Tree Predictor 3:7 (IDLE);timestamp=Mar 13, 2017 11:44:51 AM]
+2017-03-13 11:44:51,092 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:44:51,093 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Decision Tree Predictor 3:7 (IDLE) )
+2017-03-13 11:44:51,093 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Learner 3:6 (IDLE)
+2017-03-13 11:44:53,561 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Predictor 3:7 (IDLE)
+2017-03-13 11:44:53,561 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Learner 3:6 (IDLE)
+2017-03-13 11:44:55,972 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Learner 3:6 (IDLE)
+2017-03-13 11:44:55,972 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 3:2 (CONFIGURED)
+2017-03-13 11:44:57,036 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 3:2 1 to 3:6 1
+2017-03-13 11:44:57,036 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:2(1) to node 3:6(1)
+2017-03-13 11:44:57,037 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:2(1) -> 3:6( 1)];timestamp=Mar 13, 2017 11:44:57 AM]
+2017-03-13 11:44:57,040 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(1) -> 3:6( 1)]
+2017-03-13 11:44:57,040 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:44:57,040 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(1) -> 3:6( 1)]
+2017-03-13 11:44:57,040 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:00,042 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 3:2 2 to 3:7 2
+2017-03-13 11:45:00,042 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:2(2) to node 3:7(2)
+2017-03-13 11:45:00,043 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:2(2) -> 3:7( 2)];timestamp=Mar 13, 2017 11:45:00 AM]
+2017-03-13 11:45:00,045 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(2) -> 3:7( 2)]
+2017-03-13 11:45:00,045 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:00,045 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:2(2) -> 3:7( 2)]
+2017-03-13 11:45:00,045 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:01,664 : DEBUG : main : NodeContainerEditPart :  :  : Partitioning 3:2 (CONFIGURED)
+2017-03-13 11:45:01,665 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Learner 3:6 (IDLE)
+2017-03-13 11:45:02,749 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 3:6 1 to 3:7 1
+2017-03-13 11:45:02,750 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:6(1) to node 3:7(1)
+2017-03-13 11:45:02,750 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:6(1) -> 3:7( 1)];timestamp=Mar 13, 2017 11:45:02 AM]
+2017-03-13 11:45:02,762 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:6(1) -> 3:7( 1)]
+2017-03-13 11:45:02,762 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:02,762 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:6(1) -> 3:7( 1)]
+2017-03-13 11:45:02,762 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:04,104 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Learner 3:6 (IDLE)
+2017-03-13 11:45:04,104 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Predictor 3:7 (IDLE)
+2017-03-13 11:45:04,864 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 3:7 1 to 3:5 1
+2017-03-13 11:45:04,864 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:7(1) to node 3:5(1)
+2017-03-13 11:45:04,864 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[3:7(1) -> 3:5( 1)];timestamp=Mar 13, 2017 11:45:04 AM]
+2017-03-13 11:45:04,866 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:7(1) -> 3:5( 1)]
+2017-03-13 11:45:04,866 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:04,866 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:7(1) -> 3:5( 1)]
+2017-03-13 11:45:04,867 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:45:07,213 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Predictor 3:7 (IDLE)
+2017-03-13 11:45:07,213 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 3:5 (IDLE)
+2017-03-13 11:45:08,966 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2017-03-13 11:45:08,966 : DEBUG : main : NodeContainer :  :  : CSV Reader 3:1 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:08,966 : DEBUG : main : NodeContainer :  :  : CSV Reader 3:1 has new state: CONFIGURED_QUEUED
+2017-03-13 11:45:08,967 : DEBUG : main : NodeContainer :  :  : Partitioning 3:2 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:08,967 : DEBUG : main : NodeContainer :  :  : Decision Tree Learner 3:6 has new state: UNCONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:08,967 : DEBUG : main : NodeContainer :  :  : Decision Tree Predictor 3:7 has new state: UNCONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:08,967 : DEBUG : main : NodeContainer :  :  : Scorer 3:5 has new state: UNCONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:08,967 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: EXECUTING
+2017-03-13 11:45:08,967 : DEBUG : KNIME-Worker-10 : WorkflowManager : CSV Reader : 3:1 : CSV Reader 3:1 doBeforePreExecution
+2017-03-13 11:45:08,967 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : CSV Reader 3:1 has new state: PREEXECUTE
+2017-03-13 11:45:08,967 : DEBUG : KNIME-Worker-10 : WorkflowManager : CSV Reader : 3:1 : CSV Reader 3:1 doBeforeExecution
+2017-03-13 11:45:08,968 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : CSV Reader 3:1 has new state: EXECUTING
+2017-03-13 11:45:08,968 : DEBUG : KNIME-Worker-10 : WorkflowFileStoreHandlerRepository : CSV Reader : 3:1 : Adding handler a25bf17e-9ee1-4b85-8db3-ee6f7ee105d6 (CSV Reader 3:1: <no directory>) - 1 in total
+2017-03-13 11:45:08,968 : DEBUG : KNIME-Worker-10 : LocalNodeExecutionJob : CSV Reader : 3:1 : CSV Reader 3:1 Start execute
+2017-03-13 11:45:08,969 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2017-03-13 11:45:09,224 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_6301416638435655532.bin.gz"
+2017-03-13 11:45:09,224 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_4841003157389244424.bin.gz"
+2017-03-13 11:45:09,224 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_2968113503602481081.bin.gz"
+2017-03-13 11:45:09,225 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_8010294155830542410.bin.gz"
+2017-03-13 11:45:09,225 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_2848206939877349518.bin.gz"
+2017-03-13 11:45:09,477 : DEBUG : KNIME-Worker-10 : Buffer : CSV Reader : 3:1 : Buffer file (/tmp/knime_Workflow Manage20978/knime_container_20170313_5095941418615341314.bin.gz) is 0.306MB in size
+2017-03-13 11:45:09,477 : INFO  : KNIME-Worker-10 : LocalNodeExecutionJob : CSV Reader : 3:1 : CSV Reader 3:1 End execute (0 secs)
+2017-03-13 11:45:09,477 : DEBUG : KNIME-Worker-10 : WorkflowManager : CSV Reader : 3:1 : CSV Reader 3:1 doBeforePostExecution
+2017-03-13 11:45:09,477 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : CSV Reader 3:1 has new state: POSTEXECUTE
+2017-03-13 11:45:09,477 : DEBUG : KNIME-Worker-10 : WorkflowManager : CSV Reader : 3:1 : CSV Reader 3:1 doAfterExecute - success
+2017-03-13 11:45:09,477 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : CSV Reader 3:1 has new state: EXECUTED
+2017-03-13 11:45:09,478 : DEBUG : KNIME-Worker-10 : Partitioning : Partitioning : 3:2 : Configure succeeded. (Partitioning)
+2017-03-13 11:45:09,478 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : Partitioning 3:2 has new state: CONFIGURED_QUEUED
+2017-03-13 11:45:09,478 : WARN  : KNIME-Worker-10 : Decision Tree Learner : Decision Tree Learner : 3:6 : Guessing target column: "lettr".
+2017-03-13 11:45:09,478 : DEBUG : KNIME-Worker-10 : Decision Tree Learner : Decision Tree Learner : 3:6 : Configure succeeded. (Decision Tree Learner)
+2017-03-13 11:45:09,478 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : Decision Tree Learner 3:6 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-10 : Decision Tree Predictor : Decision Tree Predictor : 3:7 : Configure succeeded. (Decision Tree Predictor)
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : Decision Tree Predictor 3:7 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-10 : Scorer : Scorer : 3:5 : Configure succeeded. (Scorer)
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-10 : NodeContainer : CSV Reader : 3:1 : Scorer 3:5 has new state: CONFIGURED_MARKEDFOREXEC
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-11 : WorkflowManager : Partitioning : 3:2 : Partitioning 3:2 doBeforePreExecution
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-11 : NodeContainer : Partitioning : 3:2 : Partitioning 3:2 has new state: PREEXECUTE
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-11 : WorkflowManager : Partitioning : 3:2 : Partitioning 3:2 doBeforeExecution
+2017-03-13 11:45:09,479 : DEBUG : KNIME-Worker-11 : NodeContainer : Partitioning : 3:2 : Partitioning 3:2 has new state: EXECUTING
+2017-03-13 11:45:09,480 : DEBUG : KNIME-Worker-11 : WorkflowFileStoreHandlerRepository : Partitioning : 3:2 : Adding handler cfa1646c-d4c2-4f55-99bf-863b34a2d274 (Partitioning 3:2: <no directory>) - 2 in total
+2017-03-13 11:45:09,480 : DEBUG : KNIME-Worker-11 : LocalNodeExecutionJob : Partitioning : 3:2 : Partitioning 3:2 Start execute
+2017-03-13 11:45:09,480 : DEBUG : KNIME-Worker-11 : PartitionNodeModel : Partitioning : 3:2 : Using random seed 6750222415526
+2017-03-13 11:45:09,482 : DEBUG : KNIME-Worker-11 : Buffer : Partitioning : 3:2 : Opening input stream on file "/tmp/knime_Workflow Manage20978/knime_container_20170313_5095941418615341314.bin.gz", 1 open streams
+2017-03-13 11:45:09,734 : DEBUG : KNIME-Worker-11 : Buffer : Partitioning : 3:2 : Closing input stream on "/tmp/knime_Workflow Manage20978/knime_container_20170313_5095941418615341314.bin.gz", 0 remaining
+2017-03-13 11:45:09,735 : DEBUG : KNIME-Worker-11 : Buffer : Partitioning : 3:2 : Buffer file (/tmp/knime_Workflow Manage20978/knime_container_20170313_486487168203236988.bin.gz) is 0.246MB in size
+2017-03-13 11:45:09,735 : INFO  : KNIME-Worker-11 : LocalNodeExecutionJob : Partitioning : 3:2 : Partitioning 3:2 End execute (0 secs)
+2017-03-13 11:45:09,735 : DEBUG : KNIME-Worker-11 : WorkflowManager : Partitioning : 3:2 : Partitioning 3:2 doBeforePostExecution
+2017-03-13 11:45:09,735 : DEBUG : KNIME-Worker-11 : NodeContainer : Partitioning : 3:2 : Partitioning 3:2 has new state: POSTEXECUTE
+2017-03-13 11:45:09,735 : DEBUG : KNIME-Worker-11 : WorkflowManager : Partitioning : 3:2 : Partitioning 3:2 doAfterExecute - success
+2017-03-13 11:45:09,735 : DEBUG : KNIME-Worker-11 : NodeContainer : Partitioning : 3:2 : Partitioning 3:2 has new state: EXECUTED
+2017-03-13 11:45:09,736 : DEBUG : KNIME-Worker-11 : Decision Tree Learner : Decision Tree Learner : 3:6 : Configure succeeded. (Decision Tree Learner)
+2017-03-13 11:45:09,736 : DEBUG : KNIME-Worker-11 : NodeContainer : Partitioning : 3:2 : Decision Tree Learner 3:6 has new state: CONFIGURED_QUEUED
+2017-03-13 11:45:09,737 : DEBUG : KNIME-Worker-11 : Decision Tree Predictor : Decision Tree Predictor : 3:7 : Configure succeeded. (Decision Tree Predictor)
+2017-03-13 11:45:09,738 : DEBUG : KNIME-Worker-12 : WorkflowManager : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 doBeforePreExecution
+2017-03-13 11:45:09,738 : DEBUG : KNIME-Worker-12 : NodeContainer : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 has new state: PREEXECUTE
+2017-03-13 11:45:09,738 : DEBUG : KNIME-Worker-12 : WorkflowManager : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 doBeforeExecution
+2017-03-13 11:45:09,738 : DEBUG : KNIME-Worker-12 : NodeContainer : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 has new state: EXECUTING
+2017-03-13 11:45:09,738 : DEBUG : KNIME-Worker-12 : WorkflowFileStoreHandlerRepository : Decision Tree Learner : 3:6 : Adding handler e35c3667-b978-49c8-bed6-f341bdcc2403 (Decision Tree Learner 3:6: <no directory>) - 3 in total
+2017-03-13 11:45:09,738 : DEBUG : KNIME-Worker-12 : LocalNodeExecutionJob : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 Start execute
+2017-03-13 11:45:09,739 : DEBUG : KNIME-Worker-12 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Number available threads: 8 used threads: 1
+2017-03-13 11:45:09,757 : DEBUG : KNIME-Worker-12 : Buffer : Decision Tree Learner : 3:6 : Opening input stream on file "/tmp/knime_Workflow Manage20978/knime_container_20170313_486487168203236988.bin.gz", 1 open streams
+2017-03-13 11:45:09,817 : DEBUG : KNIME-Worker-12 : Buffer : Decision Tree Learner : 3:6 : Closing input stream on "/tmp/knime_Workflow Manage20978/knime_container_20170313_486487168203236988.bin.gz", 0 remaining
+2017-03-13 11:45:09,947 : DEBUG : KNIME-Worker-12 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 0.0
+2017-03-13 11:45:09,948 : DEBUG : KNIME-Worker-12 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 0.1
+2017-03-13 11:45:09,962 : DEBUG : Build thread, node: 0.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 1.1
+2017-03-13 11:45:09,981 : DEBUG : Build thread, node: 1.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 1.1 finished
+2017-03-13 11:45:09,981 : DEBUG : Build thread, node: 0.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 0.0 finished
+2017-03-13 11:45:10,007 : DEBUG : Build thread, node: 0.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 2.0
+2017-03-13 11:45:10,007 : DEBUG : Build thread, node: 0.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 2.1
+2017-03-13 11:45:10,015 : DEBUG : Build thread, node: 2.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 112.0
+2017-03-13 11:45:10,020 : DEBUG : Build thread, node: 112.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 114.0
+2017-03-13 11:45:10,020 : DEBUG : Build thread, node: 112.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 114.1
+2017-03-13 11:45:10,027 : DEBUG : Build thread, node: 114.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 129.0
+2017-03-13 11:45:10,035 : DEBUG : Build thread, node: 114.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 114.0 finished
+2017-03-13 11:45:10,037 : DEBUG : Build thread, node: 129.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 129.0 finished
+2017-03-13 11:45:10,043 : DEBUG : Build thread, node: 114.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 114.1 finished
+2017-03-13 11:45:10,043 : DEBUG : Build thread, node: 112.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 112.0 finished
+2017-03-13 11:45:10,043 : DEBUG : Build thread, node: 2.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 2.1 finished
+2017-03-13 11:45:10,064 : DEBUG : Build thread, node: 2.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 111.0
+2017-03-13 11:45:10,064 : DEBUG : Build thread, node: 2.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 111.1
+2017-03-13 11:45:10,069 : DEBUG : Build thread, node: 111.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 479.0
+2017-03-13 11:45:10,069 : DEBUG : Build thread, node: 111.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 479.1
+2017-03-13 11:45:10,076 : DEBUG : Build thread, node: 479.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 479.0 finished
+2017-03-13 11:45:10,078 : DEBUG : Build thread, node: 479.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 482.1
+2017-03-13 11:45:10,081 : DEBUG : Build thread, node: 482.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 540.0
+2017-03-13 11:45:10,094 : DEBUG : Build thread, node: 540.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 540.0 finished
+2017-03-13 11:45:10,094 : DEBUG : Build thread, node: 482.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 482.1 finished
+2017-03-13 11:45:10,094 : DEBUG : Build thread, node: 479.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 479.1 finished
+2017-03-13 11:45:10,094 : DEBUG : Build thread, node: 111.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 111.0 finished
+2017-03-13 11:45:10,101 : DEBUG : Build thread, node: 111.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 688.0
+2017-03-13 11:45:10,114 : DEBUG : Build thread, node: 688.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 703.0
+2017-03-13 11:45:10,114 : DEBUG : Build thread, node: 688.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 703.1
+2017-03-13 11:45:10,116 : DEBUG : Build thread, node: 703.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 758.0
+2017-03-13 11:45:10,132 : DEBUG : Build thread, node: 758.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 758.0 finished
+2017-03-13 11:45:10,132 : DEBUG : Build thread, node: 703.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 703.0 finished
+2017-03-13 11:45:10,142 : DEBUG : Build thread, node: 703.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 968.1
+2017-03-13 11:45:10,146 : DEBUG : Build thread, node: 968.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 1416.1
+2017-03-13 11:45:10,179 : DEBUG : Build thread, node: 1416.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 1416.1 finished
+2017-03-13 11:45:10,179 : DEBUG : Build thread, node: 968.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 968.1 finished
+2017-03-13 11:45:10,179 : DEBUG : Build thread, node: 703.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 759.1
+2017-03-13 11:45:10,187 : DEBUG : Build thread, node: 759.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 759.1 finished
+2017-03-13 11:45:10,187 : DEBUG : Build thread, node: 703.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 703.1 finished
+2017-03-13 11:45:10,187 : DEBUG : Build thread, node: 688.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 688.0 finished
+2017-03-13 11:45:10,187 : DEBUG : Build thread, node: 111.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 480.1
+2017-03-13 11:45:10,192 : DEBUG : Build thread, node: 480.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 2404.0
+2017-03-13 11:45:10,193 : DEBUG : Build thread, node: 480.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 2404.1
+2017-03-13 11:45:10,197 : DEBUG : Build thread, node: 2404.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 2405.0
+2017-03-13 11:45:10,198 : DEBUG : Build thread, node: 2404.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 2404.1 finished
+2017-03-13 11:45:10,199 : DEBUG : Build thread, node: 2405.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Start new parallel building thread: Build thread, node: 2461.0
+2017-03-13 11:45:10,209 : DEBUG : Build thread, node: 2461.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 2461.0 finished
+2017-03-13 11:45:10,210 : DEBUG : Build thread, node: 2405.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 2405.0 finished
+2017-03-13 11:45:10,216 : DEBUG : Build thread, node: 2404.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 2404.0 finished
+2017-03-13 11:45:10,216 : DEBUG : Build thread, node: 480.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 480.1 finished
+2017-03-13 11:45:10,216 : DEBUG : Build thread, node: 111.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 111.1 finished
+2017-03-13 11:45:10,216 : DEBUG : Build thread, node: 2.0 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 2.0 finished
+2017-03-13 11:45:10,216 : DEBUG : Build thread, node: 0.1 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Thread: Build thread, node: 0.1 finished
+2017-03-13 11:45:10,223 : DEBUG : KNIME-Worker-12 : Buffer : Decision Tree Learner : 3:6 : Opening input stream on file "/tmp/knime_Workflow Manage20978/knime_container_20170313_486487168203236988.bin.gz", 1 open streams
+2017-03-13 11:45:10,467 : DEBUG : KNIME-Worker-12 : Buffer : Decision Tree Learner : 3:6 : Closing input stream on "/tmp/knime_Workflow Manage20978/knime_container_20170313_486487168203236988.bin.gz", 0 remaining
+2017-03-13 11:45:10,468 : INFO  : KNIME-Worker-12 : DecisionTreeLearnerNodeModel2 : Decision Tree Learner : 3:6 : Decision tree consisting of 2545 nodes created with pruning method No pruning
+2017-03-13 11:45:10,783 : INFO  : KNIME-Worker-12 : LocalNodeExecutionJob : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 End execute (1 sec)
+2017-03-13 11:45:10,783 : DEBUG : KNIME-Worker-12 : WorkflowManager : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 doBeforePostExecution
+2017-03-13 11:45:10,783 : DEBUG : KNIME-Worker-12 : NodeContainer : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 has new state: POSTEXECUTE
+2017-03-13 11:45:10,783 : DEBUG : KNIME-Worker-12 : WorkflowManager : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 doAfterExecute - success
+2017-03-13 11:45:10,783 : DEBUG : KNIME-Worker-12 : NodeContainer : Decision Tree Learner : 3:6 : Decision Tree Learner 3:6 has new state: EXECUTED
+2017-03-13 11:45:10,784 : DEBUG : KNIME-Worker-12 : Decision Tree Predictor : Decision Tree Predictor : 3:7 : Configure succeeded. (Decision Tree Predictor)
+2017-03-13 11:45:10,784 : DEBUG : KNIME-Worker-12 : NodeContainer : Decision Tree Learner : 3:6 : Decision Tree Predictor 3:7 has new state: CONFIGURED_QUEUED
+2017-03-13 11:45:10,785 : DEBUG : KNIME-Worker-13 : WorkflowManager : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 doBeforePreExecution
+2017-03-13 11:45:10,785 : DEBUG : KNIME-Worker-13 : NodeContainer : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 has new state: PREEXECUTE
+2017-03-13 11:45:10,785 : DEBUG : KNIME-Worker-13 : WorkflowManager : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 doBeforeExecution
+2017-03-13 11:45:10,785 : DEBUG : KNIME-Worker-13 : NodeContainer : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 has new state: EXECUTING
+2017-03-13 11:45:10,785 : DEBUG : KNIME-Worker-13 : WorkflowFileStoreHandlerRepository : Decision Tree Predictor : 3:7 : Adding handler d496ace4-7149-4334-b019-f96d0e3de5d7 (Decision Tree Predictor 3:7: <no directory>) - 4 in total
+2017-03-13 11:45:10,785 : DEBUG : KNIME-Worker-13 : LocalNodeExecutionJob : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 Start execute
+2017-03-13 11:45:12,031 : DEBUG : Service Thread : MemoryAlertSystem :  :  : Memory usage below threshold of 0.8062614426949836 after GC run
+2017-03-13 11:45:12,947 : INFO  : KNIME-Worker-13 : LocalNodeExecutionJob : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 End execute (2 secs)
+2017-03-13 11:45:12,947 : DEBUG : KNIME-Worker-13 : WorkflowManager : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 doBeforePostExecution
+2017-03-13 11:45:12,947 : DEBUG : KNIME-Worker-13 : NodeContainer : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 has new state: POSTEXECUTE
+2017-03-13 11:45:12,947 : DEBUG : KNIME-Worker-13 : WorkflowManager : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 doAfterExecute - success
+2017-03-13 11:45:12,947 : DEBUG : KNIME-Worker-13 : NodeContainer : Decision Tree Predictor : 3:7 : Decision Tree Predictor 3:7 has new state: EXECUTED
+2017-03-13 11:45:12,947 : DEBUG : KNIME-Worker-13 : Scorer : Scorer : 3:5 : Configure succeeded. (Scorer)
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-13 : NodeContainer : Decision Tree Predictor : 3:7 : Scorer 3:5 has new state: CONFIGURED_QUEUED
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-10 : WorkflowManager : Scorer : 3:5 : Scorer 3:5 doBeforePreExecution
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-10 : NodeContainer : Scorer : 3:5 : Scorer 3:5 has new state: PREEXECUTE
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-10 : WorkflowManager : Scorer : 3:5 : Scorer 3:5 doBeforeExecution
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-10 : NodeContainer : Scorer : 3:5 : Scorer 3:5 has new state: EXECUTING
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-10 : WorkflowFileStoreHandlerRepository : Scorer : 3:5 : Adding handler 5e214896-8a21-43c5-9de4-12a93508a295 (Scorer 3:5: <no directory>) - 5 in total
+2017-03-13 11:45:12,948 : DEBUG : KNIME-Worker-10 : LocalNodeExecutionJob : Scorer : 3:5 : Scorer 3:5 Start execute
+2017-03-13 11:45:12,958 : INFO  : KNIME-Worker-10 : AccuracyScorerNodeModel : Scorer : 3:5 : error=0.13, #correct=3480, #false=520, #rows=4000, #missing=0
+2017-03-13 11:45:12,959 : INFO  : KNIME-Worker-10 : LocalNodeExecutionJob : Scorer : 3:5 : Scorer 3:5 End execute (0 secs)
+2017-03-13 11:45:12,959 : DEBUG : KNIME-Worker-10 : WorkflowManager : Scorer : 3:5 : Scorer 3:5 doBeforePostExecution
+2017-03-13 11:45:12,959 : DEBUG : KNIME-Worker-10 : NodeContainer : Scorer : 3:5 : Scorer 3:5 has new state: POSTEXECUTE
+2017-03-13 11:45:12,959 : DEBUG : KNIME-Worker-10 : WorkflowManager : Scorer : 3:5 : Scorer 3:5 doAfterExecute - success
+2017-03-13 11:45:12,959 : DEBUG : KNIME-Worker-10 : NodeContainer : Scorer : 3:5 : Scorer 3:5 has new state: EXECUTED
+2017-03-13 11:45:12,959 : DEBUG : KNIME-Worker-10 : NodeContainer : Scorer : 3:5 : Decision_Tree 3 has new state: EXECUTED
+2017-03-13 11:45:12,960 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2017-03-13 11:45:18,651 : DEBUG : main : WorkflowEditor :  :  : Saving workflow Decision_Tree 3
+2017-03-13 11:45:18,712 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/CSV Reader (#1)"
+2017-03-13 11:45:18,718 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/Partitioning (#2)"
+2017-03-13 11:45:18,761 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/Scorer (#5)"
+2017-03-13 11:45:18,775 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/Decision Tree Learner (#6)"
+2017-03-13 11:45:19,049 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_2221472696066588275.bin.gz"
+2017-03-13 11:45:19,049 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_6085148614798720511.bin.gz"
+2017-03-13 11:45:19,049 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_container_20170313_8140059923270146274.bin.gz"
+2017-03-13 11:45:19,500 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "/home/josep/ADM/Paper1/knime-workspace/Decision_Tree/Decision Tree Predictor (#7)"
+2017-03-13 11:45:19,922 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/Decision_Tree"
+2017-03-13 11:45:22,431 : DEBUG : main : OpenViewAction :  :  : Open Node View Scorer (#0)
+2017-03-13 11:45:22,456 : DEBUG : AWT-EventQueue-0 : AccuracyScorerNodeModel :  :  : Registering view at model (total count 1)
+2017-03-13 11:46:34,051 : DEBUG : AWT-EventQueue-0 : AccuracyScorerNodeModel :  :  : Unregistering view from model (0 remaining).
+2017-03-13 11:46:44,313 : DEBUG : main : WorkflowManager :  :  : Created subworkflow 3:0
+2017-03-13 11:46:44,313 : DEBUG : main : NodeContainer :  :  : Setting dirty flag on Decision_Tree 3
+2017-03-13 11:46:44,314 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0(0) to node 3:0:2(1)
+2017-03-13 11:46:44,314 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0:1(2) to node 3:0(1)
+2017-03-13 11:46:44,314 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0:1(1) to node 3:0(0)
+2017-03-13 11:46:44,314 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0:2(1) to node 3:0:14(1)
+2017-03-13 11:46:44,315 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0:2(2) to node 3:0:15(2)
+2017-03-13 11:46:44,315 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0:14(1) to node 3:0:15(1)
+2017-03-13 11:46:44,315 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 3:0:15(1) to node 3:0:1(1)
+2017-03-13 11:46:44,316 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: IDLE
+2017-03-13 11:46:44,316 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:0;old=null;new=(WFM) Cross Validation 3:0 (IDLE);timestamp=Mar 13, 2017 11:46:44 AM]
+2017-03-13 11:46:44,317 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=3;old=null;new=null;timestamp=Mar 13, 2017 11:46:44 AM]
+2017-03-13 11:46:44,330 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:46:44,334 : DEBUG : main : WorkflowRootEditPart :  :  : part: SubworkflowEditPart( (WFM) Cross Validation 3:0 (IDLE) )
+2017-03-13 11:46:44,334 : DEBUG : main : NodeContainerEditPart :  :  : Scorer 3:5 (EXECUTED)
+2017-03-13 11:46:44,342 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(DataTableSpec,BufferedDataTable) and index 0
+2017-03-13 11:46:44,342 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(DataTableSpec,BufferedDataTable) index 0 nr outports 2 and tooltip Connected to: Prediction table
+2017-03-13 11:46:44,342 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@3a8dd899 state: IDLE
+2017-03-13 11:46:44,346 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(DataTableSpec,BufferedDataTable) and index 1
+2017-03-13 11:46:44,346 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(DataTableSpec,BufferedDataTable) index 1 nr outports 2 and tooltip Connected to: Error rates
+2017-03-13 11:46:44,347 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@6fab250b state: IDLE
+2017-03-13 11:46:44,366 : INFO  : main : LicenseStore :  :  : Reading licenses from /home/josep/builds/knime/knime_3.3.1/licenses
+2017-03-13 11:46:44,368 : INFO  : main : LicenseStore :  :  : Reading licenses from /home/josep/builds/knime/knime_3.3.1/configuration/com.knime.licenses
+2017-03-13 11:46:45,595 : DEBUG : main : NodeContainerEditPart :  :  : opening new editor for sub-workflow
+2017-03-13 11:46:45,601 : DEBUG : main : WorkflowEditor :  :  : Creating WorkflowEditor...
+2017-03-13 11:46:45,601 : DEBUG : main : WorkflowEditor :  :  : creating editor actions...
+2017-03-13 11:46:45,601 : DEBUG : main : WorkflowEditor :  :  : Initializing editor UI...
+2017-03-13 11:46:45,601 : DEBUG : main : WorkflowEditor :  :  : Opening workflow Editor on 3:0 - Cross Validation
+2017-03-13 11:46:45,601 : DEBUG : main : WorkflowEditor :  :  : Setting input into editor...
+2017-03-13 11:46:45,608 : DEBUG : main : WorkflowPortBar :  :  : setting ui info to: x=10 y=10 width=51 height=349(absolute)
+2017-03-13 11:46:45,608 : DEBUG : main : WorkflowPortBar :  :  : in port bar: x=10 y=10 width=51 height=349(absolute)
+2017-03-13 11:46:45,608 : DEBUG : main : WorkflowPortBar :  :  : out port bar: x=746 y=23 width=46 height=349(absolute)
+2017-03-13 11:46:45,608 : DEBUG : main : WorkflowPortBar :  :  : setting ui info to: x=746 y=23 width=46 height=349(absolute)
+2017-03-13 11:46:45,608 : DEBUG : main : WorkflowPortBar :  :  : in port bar: x=10 y=10 width=51 height=349(absolute)
+2017-03-13 11:46:45,608 : DEBUG : main : WorkflowPortBar :  :  : out port bar: x=746 y=23 width=46 height=349(absolute)
+2017-03-13 11:46:45,609 : DEBUG : main : WorkflowRootEditPart :  :  : part: AnnotationEditPart( Replace this node by your favourite model learner )
+2017-03-13 11:46:45,611 : DEBUG : main : WorkflowRootEditPart :  :  : part: AnnotationEditPart( Replace this node by the appropriate predictor )
+2017-03-13 11:46:45,611 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:46:45,611 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:46:45,611 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:46:45,611 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2017-03-13 11:46:45,612 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( X-Aggregator 3:0:1 (IDLE) )
+2017-03-13 11:46:45,613 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:15(1) -> 3:0:1( 1)]
+2017-03-13 11:46:45,613 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,613 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: WFMOUT[3:0:1(1) -> 3:0( 0)] non deletable
+2017-03-13 11:46:45,613 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,614 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: WFMOUT[3:0:1(2) -> 3:0( 1)] non deletable
+2017-03-13 11:46:45,614 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,614 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( X-Partitioner 3:0:2 (IDLE) )
+2017-03-13 11:46:45,615 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: WFMIN[3:0(0) -> 3:0:2( 1)] non deletable
+2017-03-13 11:46:45,615 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,615 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:2(1) -> 3:0:14( 1)]
+2017-03-13 11:46:45,615 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,615 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:2(2) -> 3:0:15( 2)]
+2017-03-13 11:46:45,615 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,616 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Decision Tree Learner (deprecated) 3:0:14 (IDLE) )
+2017-03-13 11:46:45,616 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:2(1) -> 3:0:14( 1)]
+2017-03-13 11:46:45,616 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,617 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:14(1) -> 3:0:15( 1)]
+2017-03-13 11:46:45,617 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,617 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Decision Tree Predictor 3:0:15 (IDLE) )
+2017-03-13 11:46:45,617 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:14(1) -> 3:0:15( 1)]
+2017-03-13 11:46:45,618 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,618 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:2(2) -> 3:0:15( 2)]
+2017-03-13 11:46:45,618 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,618 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[3:0:15(1) -> 3:0:1( 1)]
+2017-03-13 11:46:45,618 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,619 : DEBUG : main : WorkflowRootEditPart :  :  : part: WorkflowInPortBarEditPart( org.knime.workbench.editor2.model.WorkflowPortBar@47e2a158 )
+2017-03-13 11:46:45,619 : DEBUG : main : WorkflowPortBar :  :  : getting ui info: x=10 y=10 width=51 height=349(absolute)
+2017-03-13 11:46:45,620 : DEBUG : main : WorkflowPortBar :  :  : getting ui info: x=10 y=10 width=51 height=349(absolute)
+2017-03-13 11:46:45,624 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: WFMIN[3:0(0) -> 3:0:2( 1)] non deletable
+2017-03-13 11:46:45,624 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,624 : DEBUG : main : WorkflowRootEditPart :  :  : part: WorkflowOutPortBarEditPart( org.knime.workbench.editor2.model.WorkflowPortBar@105f875f )
+2017-03-13 11:46:45,624 : DEBUG : main : WorkflowPortBar :  :  : getting ui info: x=746 y=23 width=46 height=349(absolute)
+2017-03-13 11:46:45,625 : DEBUG : main : WorkflowPortBar :  :  : getting ui info: x=746 y=23 width=46 height=349(absolute)
+2017-03-13 11:46:45,625 : DEBUG : main : WorkflowOutPortEditPart :  :  : create figure. Parent's figure: org.knime.workbench.editor2.figures.WorkflowOutPortBarFigure@3aa2646f
+2017-03-13 11:46:45,626 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: WFMOUT[3:0:1(1) -> 3:0( 0)] non deletable
+2017-03-13 11:46:45,626 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:45,627 : DEBUG : main : WorkflowOutPortEditPart :  :  : create figure. Parent's figure: org.knime.workbench.editor2.figures.WorkflowOutPortBarFigure@3aa2646f
+2017-03-13 11:46:45,627 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: WFMOUT[3:0:1(2) -> 3:0( 1)] non deletable
+2017-03-13 11:46:45,627 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2017-03-13 11:46:55,423 : DEBUG : main : NodeContainerEditPart :  :  : Decision Tree Predictor 3:0:15 (IDLE)
+2017-03-13 11:46:55,424 : DEBUG : main : NodeContainerEditPart :  :  : X-Aggregator 3:0:1 (IDLE)
+2017-03-13 11:47:38,303 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2017-03-13 11:47:38,305 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2017-03-13 11:47:41,717 : DEBUG : main : VerifyingCompoundCommand :  :  : Executing <1> commands.
+2017-03-13 11:47:41,717 : DEBUG : main : AggregateOutputNodeModel : X-Aggregator : 3:0:1 : Removing all (0) views from model.
+2017-03-13 11:47:41,718 : DEBUG : main : X-Aggregator : X-Aggregator : 3:0:1 : clean output ports.
+2017-03-13 11:47:41,718 : DEBUG : main : DecTreePredictorNodeModel : Decision Tree Predictor : 3:0:15 : Removing all (0) views from model.
+2017-03-13 11:47:41,718 : DEBUG : main : Decision Tree Predictor : Decision Tree Predictor : 3:0:15 : clean output ports.
+2017-03-13 11:47:41,718 : DEBUG : main : DecisionTreeLearnerNodeModel2 : Decision Tree Learner (deprecated) : 3:0:14 : Removing all (0) views from model.
+2017-03-13 11:47:41,718 : DEBUG : main : Decision Tree Learner (deprecated) : Decision Tree Learner (deprecated) : 3:0:14 : clean output ports.
+2017-03-13 11:47:41,718 : DEBUG : main : XValidatePartitionModel : X-Partitioner : 3:0:2 : Removing all (0) views from model.
+2017-03-13 11:47:41,718 : DEBUG : main : X-Partitioner : X-Partitioner : 3:0:2 : clean output ports.
+2017-03-13 11:47:41,719 : DEBUG : main : NodeContainer :  :  : Decision_Tree 3 has new state: EXECUTED
+2017-03-13 11:47:41,719 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=3;old=(WFM) Cross Validation 3:0 (IDLE);new=null;timestamp=Mar 13, 2017 11:47:41 AM]
+2017-03-13 11:47:42,493 : DEBUG : main : WorkflowEditor :  :  : Saving workflow Decision_Tree 3
